@@ -6,6 +6,11 @@ export const smallMixed = [1, "2", true, null, undefined];
 
 export const mediumNumbers = Array.from({ length: 100 }, (_, i) => i);
 
+export const smallRandom = Array.from(
+  { length: 1000 },
+  () => Math.floor(Math.random() * 100)
+);
+
 export const mediumRandom = Array.from(
   { length: 100 },
   () => Math.floor(Math.random() * 1000)

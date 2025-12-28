@@ -6,6 +6,8 @@ const configB = largeRandom.slice()
   .sort(() => Math.random() - 0.5);
 
 /*
+    Drift Detection
+    
     You deploy a system across multiple environments.
     Each environment reports enabled feature flags.
 
